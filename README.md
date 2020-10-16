@@ -1,7 +1,6 @@
-# Welcome to Doom Adventure! 
+# Welcome to Office Reactor! 
 
-Doom Adventure* is a two to four player multiplayer Doom map made with Trenchbroom. 
+Office Reactor is a two to four player multiplayer Quake map made with Trenchbroom. 
 
 For more information on development, visit my [project wiki](https://github.com/BrooklynDipi/doom-adventure/wiki)!
 
-*Name is WIP
