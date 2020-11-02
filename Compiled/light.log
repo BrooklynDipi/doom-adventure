@@ -1,33 +1,37 @@
 ---- light / ericw-tools v0.18.1 ----
+extra 4x4 sampling enabled
 Raytracing backend: Embree
 running with 8 threads
 LoadBSPFile: 'levelblockout.bsp'
 BSP is version 29
 --- LoadEntities ---
-14 entities read, 0 are lights.
+WARNING: entity at (132 -396 312) (light) has empty key/value "killtarget" ""
+127 entities read, 88 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	0 sky faces
-	1841 solid faces
+	98 sky faces
+	3694 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 0 initial lights
-SetupLights: 0 after surface lights
-SetupLights: 0 after jittering
+SetupLights: 88 initial lights
+SetupLights: 88 after surface lights
+SetupLights: 88 after jittering
+WARNING: couldn't nudge light in solid at -408.000000 874.000000 152.000000
+WARNING: couldn't nudge light in solid at -888.000000 408.000000 312.000000
 --- EstimateLightVisibility ---
-
-Final count: 0 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 88 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 0
+lightdatasize: 70992
 0 switchable light styles (32 max)
 Writing levelblockout.bsp as BSP version 29
-0.083 seconds elapsed
+0.290 seconds elapsed
 
 stats:
-0.000000 lights tested, 0.000000 hits per sample point
+2.610545 lights tested, 1.498452 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
